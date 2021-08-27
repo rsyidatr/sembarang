@@ -16,3 +16,30 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('index');
 });
+Route::get('/index.html', function () {
+    return view('index');
+});
+Route::get('/dashboard-finance.html', function () {
+    return view('dashboard-finance');
+});
+Route::get('/dashboard-influencer.html', function () {
+    return view('dashboard-influencer');
+});
+Route::get('/dashboard-sales.html', function () {
+    return view('indexdashboard-sales');
+});
+Route::get('/ecommerce-product-checkout.html', function () {
+    return view('indeecommerce-product-checkoutx');
+});
+Route::get('/ecommerce-product-single.html', function () {
+    return view('ecommerce-product-single');
+});
+Route::get('/ecommerce-product.html', function () {
+    return view('ecommerce-product');
+});
+Route::get('/influencer-finder.html', function () {
+    return view('influencer-finder');
+});
+Route::get('/influencer-profile.html', function () {
+    return view('influencer-profile');
+});
